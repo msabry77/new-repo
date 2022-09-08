@@ -95,3 +95,8 @@ git reset --hard *the id of commit oper*
 
 finnaly fork button it maske easy access of others repo 
 
+to merge and delete the branch 
+$ git checkout second
+$ git push origin second
+$ git checkout first
+$ git branch -d second
